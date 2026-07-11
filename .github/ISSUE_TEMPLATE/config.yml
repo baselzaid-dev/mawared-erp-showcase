@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/Bojoo62/mawared-erp-showcase/security/policy
+    about: Do not publish credentials, personal data, or vulnerability details in a public issue.
+  - name: Product showcase
+    url: https://bojoo62.github.io/mawared-erp-showcase/
+    about: Visit the public Mawared ERP product website.
