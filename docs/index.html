@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>موارد ERP | Mawared ERP</title>
+  <meta name="description" content="منصة عربية لإدارة الموارد البشرية وعمليات الشركات، مبنية كتطبيق Android مع خادم TypeScript وPostgreSQL." />
+  <meta name="theme-color" content="#071b2d" />
+  <meta property="og:title" content="موارد ERP | Mawared ERP" />
+  <meta property="og:description" content="Arabic-first HR and enterprise operations platform." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/social-preview.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="التنقل الرئيسي">
+      <a class="brand" href="#top" aria-label="موارد ERP">
+        <img src="assets/mark.svg" alt="" width="38" height="38" />
+        <span>موارد <b>ERP</b></span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">المميزات</a>
+        <a href="#architecture">المعمارية</a>
+        <a href="#status">الحالة</a>
+        <a href="https://github.com/Bojoo62/mawared-erp-showcase">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <span class="eyebrow">منتج تجاري قيد التطوير النشط</span>
+        <h1>إدارة الموارد البشرية وعمليات الشركة من منصة عربية واحدة.</h1>
+        <p class="lead">موارد ERP منصة متعددة الشركات تجمع الموظفين، الحضور، الإجازات، الصلاحيات، التقارير، والعمليات الإدارية ضمن تجربة Android عربية قابلة للتوسع.</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/Bojoo62/mawared-erp-showcase">مشاهدة المشروع على GitHub</a>
+          <a class="button secondary" href="#architecture">استكشاف المعمارية</a>
+        </div>
+        <p class="note">هذا موقع عرض عام. الكود التجاري الكامل، الأسرار، إعدادات النشر، وبيانات التشغيل محفوظة في مستودع خاص.</p>
+      </div>
+      <div class="hero-panel" aria-label="ملخص تقني">
+        <div class="panel-glow"></div>
+        <div class="app-card">
+          <div class="app-top">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+          <div class="app-logo"><img src="assets/mark.svg" alt="شعار موارد" /></div>
+          <h2>Mawared ERP</h2>
+          <p>Arabic-first • Multi-company • Mobile-first</p>
+          <div class="stack-row"><span>Kotlin</span><span>Compose</span><span>TypeScript</span></div>
+          <div class="stack-row"><span>Express</span><span>Prisma</span><span>PostgreSQL</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="features">
+      <div class="section-heading">
+        <span class="eyebrow">نطاق المنتج</span>
+        <h2>أساس عملي لنظام HR وERP قابل للتوسع</h2>
+        <p>المنصة مصممة لتوحيد العمليات اليومية مع فصل واضح للصلاحيات ومسارات الموافقات.</p>
+      </div>
+      <div class="grid cards">
+        <article class="card"><span class="icon">01</span><h3>الموظفون والأقسام</h3><p>إدارة بيانات الموظفين، الأقسام، الأدوار، والهيكل التنظيمي.</p></article>
+        <article class="card"><span class="icon">02</span><h3>الحضور والانصراف</h3><p>متابعة حالة الدوام، طلبات الاستراحة، والتقارير التشغيلية المرتبطة بها.</p></article>
+        <article class="card"><span class="icon">03</span><h3>الإجازات والموافقات</h3><p>مسارات اعتماد متعددة المراحل تفصل بين الموظف، المدير، الموارد البشرية، والإدارة.</p></article>
+        <article class="card"><span class="icon">04</span><h3>الصلاحيات RBAC</h3><p>صلاحيات مبنية على الأدوار مع فرض القواعد من الخادم وليس من واجهة التطبيق فقط.</p></article>
+        <article class="card"><span class="icon">05</span><h3>الرواتب والمشتريات</h3><p>وحدات تجارية يتم تنفيذها تدريجيًا ضمن خارطة تطوير المنتج.</p></article>
+        <article class="card"><span class="icon">06</span><h3>مساعد ذكاء اصطناعي</h3><p>تكامل يمر عبر الخادم للحفاظ على مفاتيح مزود الذكاء الاصطناعي خارج التطبيق.</p></article>
+      </div>
+    </section>
+
+    <section class="section architecture" id="architecture">
+      <div class="container architecture-grid">
+        <div>
+          <span class="eyebrow">المعمارية العامة</span>
+          <h2>فصل واضح بين التطبيق، الأعمال، والبيانات</h2>
+          <p>تطبيق Android يتصل بخادم خلفي مسؤول عن المصادقة والصلاحيات وقواعد الأعمال وعزل بيانات الشركات.</p>
+          <ul class="check-list">
+            <li>واجهة Android باستخدام Kotlin وJetpack Compose</li>
+            <li>خادم TypeScript وNode.js وExpress</li>
+            <li>Prisma مع PostgreSQL على Supabase</li>
+            <li>JWT access وrefresh-session architecture</li>
+            <li>عزل بيانات الشركات وفرض الصلاحيات من الخادم</li>
+          </ul>
+        </div>
+        <div class="flow" aria-label="مخطط تدفق النظام">
+          <div class="flow-node strong">Android App</div>
+          <div class="flow-arrow">HTTPS / REST API</div>
+          <div class="flow-node">Express Backend</div>
+          <div class="flow-split"><span>Auth & RBAC</span><span>Business Modules</span><span>AI Gateway</span></div>
+          <div class="flow-arrow">Validated server-side access</div>
+          <div class="flow-node strong">PostgreSQL</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="status">
+      <div class="section-heading">
+        <span class="eyebrow">حالة التنفيذ</span>
+        <h2>تطوير تدريجي مع تحقق فعلي لكل وحدة</h2>
+      </div>
+      <div class="status-list">
+        <div class="status-row"><span>أساس تطبيق Android</span><b class="pill active">تطوير نشط</b></div>
+        <div class="status-row"><span>المصادقة والصلاحيات</span><b class="pill verify">منفذ وقيد التقوية</b></div>
+        <div class="status-row"><span>إدارة الموظفين</span><b class="pill verify">مرتبطة بالخادم</b></div>
+        <div class="status-row"><span>الإجازات والحضور</span><b class="pill active">تنفيذ واختبارات</b></div>
+        <div class="status-row"><span>الرواتب والمشتريات</span><b class="pill planned">تنفيذ تدريجي</b></div>
+        <div class="status-row"><span>الإطلاق التجاري</span><b class="pill planned">تحضير تجربة مضبوطة</b></div>
+      </div>
+    </section>
+
+    <section class="section english container" lang="en" dir="ltr">
+      <div class="english-card">
+        <span class="eyebrow">English overview</span>
+        <h2>Arabic-first HR and enterprise operations platform</h2>
+        <p>Mawared ERP is a commercial, multi-company platform combining employee administration, attendance, leave workflows, role-based permissions, reporting, and planned payroll and procurement capabilities in one extensible system.</p>
+        <a class="text-link" href="https://github.com/Bojoo62/mawared-erp-showcase">View the full public showcase on GitHub →</a>
+      </div>
+    </section>
+
+    <section class="cta container">
+      <div>
+        <span class="eyebrow">Mawared ERP</span>
+        <h2>واجهة عرض عامة، والمنتج التجاري يبقى محميًا.</h2>
+      </div>
+      <a class="button primary" href="https://github.com/Bojoo62/mawared-erp-showcase">فتح المستودع</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>Copyright © 2026 Basel Zaid. All rights reserved.</p>
+      <p>Showcase only — not an open-source distribution.</p>
+    </div>
+  </footer>
+</body>
+</html>
