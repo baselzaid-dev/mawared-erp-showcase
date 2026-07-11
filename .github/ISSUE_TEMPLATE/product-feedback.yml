@@ -1,5 +1,5 @@
 name: Product feedback
- description: Suggest a capability, workflow, or showcase improvement for Mawared ERP.
+description: Suggest a capability, workflow, or showcase improvement for Mawared ERP.
 title: "[Feedback]: "
 labels: ["feedback"]
 body:
