@@ -67,6 +67,23 @@ This repository is a **product showcase only**. The complete source code, deploy
 - A server-mediated AI assistant; the mobile client does not call the AI provider directly.
 - Multi-company architecture with tenant data isolation.
 
+## Product screenshots | شاشات المنتج
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%"><img src="assets/screenshots/01-login.jpg" alt="Mawared ERP secure login" width="220"/><br/><b>Secure Login</b><br/>تسجيل الدخول الآمن</td>
+<td align="center" width="25%"><img src="assets/screenshots/02-dashboard.jpg" alt="Mawared ERP dashboard" width="220"/><br/><b>Executive Dashboard</b><br/>لوحة التحكم</td>
+<td align="center" width="25%"><img src="assets/screenshots/03-employees.jpg" alt="Mawared ERP employee management" width="220"/><br/><b>Employees</b><br/>إدارة الموظفين</td>
+<td align="center" width="25%"><img src="assets/screenshots/04-attendance.jpg" alt="Mawared ERP attendance reporting" width="220"/><br/><b>Attendance</b><br/>الحضور والانصراف</td>
+</tr>
+</table>
+
+<sub>Public screenshots use demo or controlled staging data and do not expose production credentials or customer information.</sub>
+
+</div>
+
 ## Technology overview
 
 | Layer | Technology |
