@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "docs/**"
+      - "assets/screenshots/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -29,6 +30,11 @@ jobs:
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+
+      - name: Sync product screenshots
+        run: |
+          mkdir -p docs/assets/screenshots
+          cp -f assets/screenshots/* docs/assets/screenshots/
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v4
